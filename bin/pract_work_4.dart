@@ -34,7 +34,7 @@ void translate() async {
       from: targetLanguage.toLowerCase(), to: sourceLanguage.toLowerCase());
   print(translation);
   print(
-      'ВЫбранные ранее языки перевода с ${targetLanguage.toUpperCase()} на ${sourceLanguage.toUpperCase()}');
+      'Выбранные ранее языки перевода с ${targetLanguage.toUpperCase()} на ${sourceLanguage.toUpperCase()}');
   String choice = '';
   do {
     print('Хотите продолжить с выбранными ${targetLanguage.toUpperCase()},${sourceLanguage.toUpperCase()} языками? Y/N');
